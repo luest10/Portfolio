@@ -1,0 +1,259 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>LcostDev | Portafolio</title>
+
+<link rel="stylesheet" href="css/style.css">
+
+<!-- ICONOS -->
+<link rel="stylesheet"
+href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+
+</head>
+
+<body>
+
+<!-- ================= NAVBAR ================= -->
+
+<header>
+
+<nav class="navbar">
+
+<div class="logo-container">
+<img src="img/LcostDev.png" alt="LcostDev Logo" class="logo">
+</div>
+
+<ul class="nav-links">
+
+<li><a href="#about">Sobre mí</a></li>
+<li><a href="#skills">Tecnologías</a></li>
+<li><a href="#projects">Proyectos</a></li>
+<li><a href="#contact">Contacto</a></li>
+
+</ul>
+
+</nav>
+
+</header>
+
+
+<!-- ================= HERO ================= -->
+
+<section class="hero">
+  <div class="hero-background">
+    <img src="img/hero.png" alt="LcostDev Logo" class="hero-img">
+  </div>
+
+  <div class="hero-content">
+    <h1>LcostDev</h1>
+    <p class="hero-title">Full Stack Developer</p>
+    <a href="#projects" class="btn">Ver proyectos</a>
+  </div>
+
+  <!-- Círculos y líneas opcionales -->
+  <span class="circle c1"></span>
+  <span class="circle c2"></span>
+  <span class="circle c3"></span>
+  <span class="line l1"></span>
+  <span class="line l2"></span>
+  <span class="line l3"></span>
+</section>
+
+
+<!-- ================= SOBRE MI ================= -->
+
+<section id="about" class="section">
+
+<div class="container">
+
+<h2>Sobre mí</h2>
+
+<p class="about-text">
+
+Soy desarrollador web enfocado en la creación de aplicaciones
+modernas y eficientes utilizando tecnologías como HTML, CSS, JavaScript, PHP y MySQL.
+Me especializo en el desarrollo de sistemas web con arquitectura MVC y experiencias
+optimizadas para los usuarios. Próximamente, planeo trabajar con Python y frameworks
+modernos como React y Next.js con TypeScript, además de implementar soluciones de 
+inteligencia artificial para potenciar la funcionalidad y la interacción de las aplicaciones.
+
+</p>
+
+</div>
+
+</section>
+
+
+<!-- ================= TECNOLOGIAS ================= -->
+
+<section id="skills" class="section">
+
+<div class="container">
+
+<h2>Tecnologías</h2>
+
+<div class="skills-grid">
+
+<div class="skill-card">
+<i class="fab fa-html5"></i>
+<span>HTML5</span>
+</div>
+
+<div class="skill-card">
+<i class="fab fa-css3-alt"></i>
+<span>CSS3</span>
+</div>
+
+<div class="skill-card">
+<i class="fab fa-sass"></i>
+<span>SASS</span>
+</div>
+
+<div class="skill-card">
+<i class="fab fa-js"></i>
+<span>JavaScript</span>
+</div>
+
+<div class="skill-card">
+<i class="fas fa-bolt"></i>
+<span>AJAX</span>
+</div>
+
+<div class="skill-card">
+<i class="fab fa-php"></i>
+<span>PHP</span>
+</div>
+
+<div class="skill-card">
+<i class="fas fa-database"></i>
+<span>MySQL</span>
+</div>
+
+<div class="skill-card">
+<i class="fas fa-layer-group"></i>
+<span>MVC</span>
+</div>
+
+<div class="skill-card">
+<i class="fab fa-git-alt"></i>
+<span>Git</span>
+</div>
+
+</div>
+
+</div>
+
+</section>
+
+
+<!-- ================= PROYECTOS ================= -->
+
+<section id="projects" class="section">
+
+<div class="container">
+
+<h2>Proyectos</h2>
+
+<div class="projects-grid">
+
+<div class="project-card">
+
+<h3>AyR Trasfertour RD</h3>
+
+<p>
+En AYR Transfertour RD, te ofrecemos una selección diversa
+de experiencias turísticas diseñadas para todos los gustos y estilos de viaje. 
+Desde recorridos panorámicos por la ciudad de Puerto Plata hasta aventuras emocionantes en buggies y ATV.
+</p>
+
+<a href="https://ayrtransfertourrd.com/" class="btn">Ver proyecto</a>
+
+</div>
+
+<div class="project-card">
+
+<h3>Buggy Adrenalina</h3>
+
+<p>
+Buggy Adrenalina Puerto Plata te invita a vivir emociones sobre
+ruedas en una de las zonas más atractivas para el turismo de aventura en República Dominicana.
+</p>
+
+<a href="https://www.buggyadrenalina.com/" class="btn">Ver proyecto</a>
+
+</div>
+
+</div>
+
+</div>
+
+</section>
+
+
+<!-- ================= CONTACTO ================= -->
+
+<section id="contact" class="section">
+
+<div class="container">
+
+<h2>Contacto</h2>
+
+<p class="contact-text">
+Si deseas trabajar conmigo o tienes algún proyecto en mente,
+puedes contactarme directamente.
+</p>
+
+<div class="contact-buttons">
+
+<a href="mailto:luestmon@gmail.com" class="btn">
+<i class="fa-solid fa-envelope"></i>
+Enviar Email
+</a>
+
+<a href="https://wa.me/18099494919" target="_blank" class="btn">
+<i class="fa-brands fa-whatsapp"></i>
+WhatsApp
+</a>
+
+</div>
+
+</div>
+
+</section>
+
+
+<!-- ================= FOOTER ================= -->
+
+<footer class="footer">
+
+<p>
+© 2026 LcostDev — Todos los derechos reservados
+</p>
+
+</footer>
+
+
+<script src="js/app.js"></script>
+
+</body>
+</html>
+
+PORTAFOLIO TEMPLATE
+
+Este portafolio está hecho con:
+
+HTML5
+CSS3
+SASS
+JavaScript
+AJAX
+PHP
+MySQL (puedes integrarlo)
+Arquitectura MVC (si decides estructurarlo luego)
+
+Puedes editar todos los textos en index.html.
