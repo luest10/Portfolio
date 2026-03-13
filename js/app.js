@@ -80,3 +80,21 @@ window.addEventListener('scroll', () => {
     aboutSection.style.color = '#000';
   }
 });
+
+const toggle = document.querySelector(".menu-toggle");
+const nav = document.querySelector(".nav-links");
+const links = document.querySelectorAll(".nav-links a");
+
+// abrir y cerrar menú
+toggle.addEventListener("click", () => {
+    toggle.classList.toggle("active");
+    nav.classList.toggle("active");
+});
+
+// cerrar menú cuando se hace click en un link
+links.forEach(link => {
+    link.addEventListener("click", () => {
+        toggle.classList.remove("active");
+        nav.classList.remove("active");
+    });
+});
