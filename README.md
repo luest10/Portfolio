@@ -1,2 +1,1 @@
-# Portfolio
-Portfolio personal de LcostDev – Desarrollador web especializado en HTML, CSS, JavaScript, PHP y MySQL.
+Portfolio personal de LcostDev donde presento mis proyectos y habilidades en desarrollo web utilizando HTML, CSS, JavaScript, PHP y MySQL.
